@@ -44,3 +44,5 @@ strategyManager.solve(first, second);
 strategyManager.setStrategy(new StrategyB());
 strategyManager.solve(first, second);
 ```
+
+![UML](https://github.com/simple-android-framework-exchange/android_design_patterns_analysis/blob/master/strategy/gkerison/images/strategy-kerison-uml.png)
