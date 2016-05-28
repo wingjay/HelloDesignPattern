@@ -31,7 +31,7 @@ We have two methods:
 class Volt220To5Adapter extends Volt220 implements IVolt5 {
 	@Override
 	public int provideVolt5() {
-		int volt\_220\_value = `provideVolt()`;
+		int volt_220_value = `provideVolt()`;
 		// transform 220 -> 5 and return back.
 	}
 }
@@ -41,7 +41,7 @@ class Volt220To5Adapter implements IVolt5 {
 	Volt220 volt220 = new Volt220();
 	@Override
 	public int provideVolt5() {
-		int volt\_220\_value = `volt220.provideVolt()`;
+		int volt_220_value = `volt220.provideVolt()`;
 		// transform 220 -> 5 and return back.
 	}
 }
